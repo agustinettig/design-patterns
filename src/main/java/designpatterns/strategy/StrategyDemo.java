@@ -2,7 +2,7 @@ package designpatterns.strategy;
 
 import java.math.BigDecimal;
 
-public class Demo {
+public class StrategyDemo {
 	
 	public static void main(String[] args) {
 		PayPalPayment payPalPayment = new PayPalPayment();
