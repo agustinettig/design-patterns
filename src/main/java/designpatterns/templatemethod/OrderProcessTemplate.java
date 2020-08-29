@@ -11,7 +11,7 @@ abstract class OrderProcessTemplate {
 		this.isGift = isGift;
 	}
 	
-	public void processOrder() {
+	public final void processOrder() {
 		receivePayment();
 		if (isGift) { 
 			wrapForGift();
