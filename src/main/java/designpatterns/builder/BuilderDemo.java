@@ -14,7 +14,7 @@ public class BuilderDemo {
 				.withWisdom(10);
 		
 		Player player = builder.build();
-		System.out.println("Name" + player.getName());
+		System.out.println("Name: " + player.getName());
 		System.out.println("HP: " + player.getHealthPoints());
 		System.out.println("CHA: " + player.getCharisma());
 		System.out.println("CON: " + player.getConstitution());
